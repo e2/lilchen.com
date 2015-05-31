@@ -61,7 +61,7 @@ class: home
 <div class="home__press__wrapper">
   <h3 class="home__header--section"><span>Select Press</span></h3>
   <ul class="home__press m-t-xxs">
-{% capture sorted_press %} {{ site.data.press | sort: 'date' }} {% endcapture %}
+{% assign sorted_press = site.data.press | sort: 'date' %}
 {% for press in sorted_press reversed %}
   {% if press.featured == true %}
   <li class="home__press__block">
