@@ -14,8 +14,8 @@ image:
   featured:
     src:     bfa_posters.jpg
     srcset:  
-        2x: bfa_posters@2x.jpg 2x
-        1x: bfa_posters@2x.jpg 1x
+        x2: bfa_posters@2x.jpg 2x
+        x1: bfa_posters@2x.jpg 1x
     sizes:   100%
     alt:     bachelor fine arts posters
     link:

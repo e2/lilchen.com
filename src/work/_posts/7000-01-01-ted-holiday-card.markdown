@@ -14,8 +14,8 @@ image:
   featured:
     src:     ted_holiday_card_cover.jpg
     srcset:  
-        2x: ted_holiday_card_cover@2x.jpg 2x
-        1x: ted_holiday_card_cover.jpg 1x  
+        x2: ted_holiday_card_cover@2x.jpg 2x
+        x1: ted_holiday_card_cover.jpg 1x
     sizes:   100%
     alt:     tea holiday card
     link:

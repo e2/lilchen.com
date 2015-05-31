@@ -26,7 +26,7 @@ class: home
           <h5 class="home__carousel__title">{{ post.title }}</h5>
           <small class="home__carousel__tags m-b-xxs">{{ post.project.tags | join: ", " }}</small>
         </div>
-          <img class="cell-loaded" src="{{ site.baseurl }}/img{{ post.id }}/{{ post.image.featured.src }}" srcset="{{ site.baseurl }}/img{{ post.id }}/{{ post.image.featured.srcset.2x | append: ', ' }}{{ site.baseurl }}/img{{ post.id }}/{{ post.image.featured.srcset.1x }}" sizes="{{ post.image.featured.sizes }}">
+          <img class="cell-loaded" src="{{ site.baseurl }}/img{{ post.id }}/{{ post.image.featured.src }}" srcset="{{ site.baseurl }}/img{{ post.id }}/{{ post.image.featured.srcset.x2 | append: ', ' }}{{ site.baseurl }}/img{{ post.id }}/{{ post.image.featured.srcset.x1 }}" sizes="{{ post.image.featured.sizes }}">
       </li>
       </a>
       {% endif %}
@@ -61,7 +61,7 @@ class: home
 <div class="home__press__wrapper">
   <h3 class="home__header--section"><span>Select Press</span></h3>
   <ul class="home__press m-t-xxs">
-{% assign sorted_press = (site.data.press | sort: 'date' ) %}
+{% capture sorted_press %} {{ site.data.press | sort: 'date' }} {% endcapture %}
 {% for press in sorted_press reversed %}
   {% if press.featured == true %}
   <li class="home__press__block">

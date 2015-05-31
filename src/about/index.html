@@ -40,7 +40,7 @@ class: about
     <h5 class="about__list__header m-b-s"><span>Press</span></h5>
 
 
-{% assign sorted_press = (site.data.press | sort: 'date' ) %}
+    {% capture sorted_press %} {{ site.data.press | sort: 'date' }} {% endcapture %}
 {% for press in sorted_press reversed %}
     {% if press.published == true %}
         <li class="about__list__block">
@@ -54,7 +54,7 @@ class: about
 
     <ul class="about__list">
     <h5 class="about__list__header m-b-s"><span>Speaking</span></h5>
-{% assign sorted_speaking = (site.data.speaking | sort: 'date' ) %}
+    {% capture sorted_speaking %} {{ site.data.press | sort: 'date' }} {% endcapture %}
 {% for speaking in sorted_speaking reversed %}
       <li class="about__list__block">
         <time class="about__list__date">{{ speaking.date | date: '%B %d, %Y' }}</time>

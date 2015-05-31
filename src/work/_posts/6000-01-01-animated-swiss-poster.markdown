@@ -14,8 +14,8 @@ image:
   featured:
     src:     brockmann_poster_thumbnail.jpg
     srcset:  
-        2x: brockmann_poster_thumbnail@2x.jpg 2x
-        1x: brockmann_poster_thumbnail.jpg 1x
+        x2: brockmann_poster_thumbnail@2x.jpg 2x
+        x1: brockmann_poster_thumbnail.jpg 1x
     sizes:   100%
     alt:     muller-brockmann poster
     link:

@@ -14,8 +14,8 @@ image:
   featured:
     src:     ted_quotes_trio_b.jpg
     srcset:  
-        2x: ted_quotes_trio_b@2x.jpg 2x
-        1x: ted_quotes_trio_b.jpg 1x
+        x2: ted_quotes_trio_b@2x.jpg 2x
+        x1: ted_quotes_trio_b.jpg 1x
     sizes:   100%
     alt:     ted quotes
     link:

@@ -14,8 +14,8 @@ image:
   featured:
     src:     the_new_meta_title.jpg
     srcset:  
-        2x: the_new_meta_title@2x.jpg 2x
-        1x: the_new_meta_title.jpg 1x
+        x2: the_new_meta_title@2x.jpg 2x
+        x1: the_new_meta_title.jpg 1x
     sizes:   100%
     alt:     the new meta
     link:

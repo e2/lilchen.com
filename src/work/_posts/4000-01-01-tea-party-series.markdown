@@ -14,8 +14,8 @@ image:
   featured:
     src:     tea_party_for.jpg
     srcset:  
-        2x: tea_party_for@2x.jpg 2x
-        1x: tea_party_for.jpg 1x
+        x2: tea_party_for@2x.jpg 2x
+        x1: tea_party_for.jpg 1x
     sizes:   100%
     alt:     tea party for cards
     link:

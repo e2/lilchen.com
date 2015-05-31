@@ -14,8 +14,8 @@ image:
   featured:
     src:     cfh_identity.jpg
     srcset:  
-        2x: cfh_identity@2x.jpg 2x
-        1x: cfh_identity.jpg 1x
+        x2: cfh_identity@2x.jpg 2x
+        x1: cfh_identity.jpg 1x
     sizes:   100%
     alt:     crossfit hartford identity package
     link:

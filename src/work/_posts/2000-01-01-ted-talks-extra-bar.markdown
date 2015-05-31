@@ -14,8 +14,8 @@ image:
   featured:
     src:     ted_extras_toolbar.jpg
     srcset:  
-        2x: ted_extras_toolbar@2x.jpg 2x
-        1x: ted_extras_toolbar.jpg 1x
+        x2: ted_extras_toolbar@2x.jpg 2x
+        x1: ted_extras_toolbar.jpg 1x
     sizes:   100%
     alt:     ted talks page toolbar
     link:
