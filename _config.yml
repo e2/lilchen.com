@@ -18,6 +18,9 @@ redcarpet:
 exclude: ['assets/_sass', 'Guardfile', 'Gemfile', 'Gemfile.lock', 'README.markdown', '.sass-cache', 'config.codekit', '.codekit-cache', '.DS_Store']
 # include: ['']
 
+source: src
+# destination: _site
+
 # Sass  
 sass:
   sass_dir: _sass
